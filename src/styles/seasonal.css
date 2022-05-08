@@ -1,0 +1,91 @@
+.seasonaldeals-child1{
+    text-align: center;
+}
+
+.seasonaldeals-child1 p{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 45px;
+    margin-bottom: 16px;
+    color: #1E2A39;
+}
+
+.seasonaldeals-child1 span{
+    font-weight: normal;
+    font-size: 16px;
+    color: #5C6272;
+}
+
+
+
+.seasonalhot-deals{
+    display: flex;
+    margin: 90px;
+    justify-content: center;
+    gap:70px;
+}
+
+
+.seasonalhot-deals1 {
+    padding: 15px;
+    border-radius: 15px;
+    background-color: white;
+}
+.seasonalhot-deals1 img {
+    height: 240px;
+    width: 200px;
+    border: 1px solid white;
+    border-radius: 15px;
+}
+.seasonalhot-deals1 #hp{
+    position: relative;
+    left: 10px;
+}
+
+
+.seasonalhot-deals1 p{
+    font-weight: 600;
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #1E2A39;
+}
+
+
+.seasonalhot-deals1  svg{
+    position: relative;
+    top: 1px;
+}
+
+.seasonalhot-deals1 span{
+    color: #7C8291;
+    padding-left: 20px;
+}
+
+#price{
+    color: #EE6D52;
+}
+
+
+
+
+@media screen   and (min-width:320px) and (max-width:480px){
+
+    .seasonaldeals {
+        margin-top: 160px;
+    }
+    
+
+    .seasonalhot-deals1 #hp{
+        position: relative;
+        left: 0
+    }
+    .seasonaldeals .seasonalhot-deals{
+        display: block;
+    }
+    
+   
+    .seasonaldeals .seasonalhot-deals1{
+        margin: 20px;
+    }
+
+}

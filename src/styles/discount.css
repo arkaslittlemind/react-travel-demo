@@ -1,0 +1,159 @@
+.discount{
+    margin-left: 90px;
+    margin-right: 90px;
+}
+
+.discount #heading1{
+    font-weight: 600;
+    font-size: 16px;
+    color: #4141A5;
+    letter-spacing: 0.17em;
+}
+
+.discount #heading2{
+    font-size: 40px;
+    position: relative;
+    top: -35px;
+    margin-bottom: 16px;
+    text-align: left;
+    color: #1E2A39;
+}
+
+
+.discount .discount-packages{
+    display: flex;
+    gap: 50px;
+}
+
+
+
+
+.discount .discount-packages .package1 img{
+    height: 70%;
+    width: 340px;
+    border-radius: 20px;
+}
+
+
+
+
+.discount .discount-packages .package1 a{
+    font-weight: 600;
+    font-size: 20px;
+    color: #E9EBF3;
+    background: rgba(255, 255, 255, 0.2);
+    -webkit-backdrop-filter: blur(4px);
+    backdrop-filter: blur(4px);
+    border-radius: 50px;
+    width: max-content;
+    padding: 15px 23px;
+    position: relative;
+    text-decoration: none;
+    top: -65%;
+    left: 20px;
+}
+
+.discount .discount-packages .package1 #second-a{
+    position: relative;
+    left: 50px;
+}   
+
+.discount .discount-packages .package1 h2{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 34px;
+    line-height: 34px;
+    color: #fff;
+    position: relative;
+    top:-30%;
+    left: 20px;
+    text-shadow: 0px 6px 20px red(0, 0, 0, 0.4);
+    margin-bottom: 10px;
+    
+}
+
+.discount .discount-packages .package1 p{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 16px;
+    color:#fff;
+    opacity: 0.9;
+    text-decoration: none;
+    position: relative;
+    top: -30%;
+    left: 20px;
+}
+.discount .discount-packages .package1 #second-h2{
+    position: relative;
+    left: 50px;
+}  
+
+.discount .discount-packages .package1 #second-p{
+    position: relative;
+    left: 50px;
+}  
+
+
+@media screen   and (min-width:320px) and (max-width:480px){
+
+    .discount{
+        margin-left: 60px;
+        margin-right: 60px;
+
+    }
+
+    .discount .discount-packages{
+        flex-direction: column;
+    }
+
+    .discount .discount-packages .package1 img{
+        width: 100%;
+    }
+
+    .discount .discount-packages .package1 #second-img{
+        width: 100%;
+        position: relative;
+        left: -2px;
+    
+    }
+  
+
+    .discount .discount-packages .package1 a{
+        position: relative;
+        top: -350px;
+    }
+
+
+    .discount .discount-packages .package1 #second-a{
+        position: relative;
+        left: 20px;
+        top: -320px;
+    }
+
+
+
+    .discount .discount-packages .package1 h2{
+        position: relative;
+        top: -180px;
+    }
+
+    .discount .discount-packages .package1 #second-h2{
+        position: relative;
+        left: 20px;
+        top: -180px;
+    }
+
+    .discount .discount-packages .package1 p{
+        position: relative;
+        top: -180px;
+    }
+
+    .discount .discount-packages .package1 #second-p{
+        position: relative;
+        left: 20px;
+    }
+
+}

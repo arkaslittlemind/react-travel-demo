@@ -1,0 +1,231 @@
+section {
+    background-color: black;
+    background-image: url('C:\Users\arkas\Downloads\tripcart-react\public\assets\img\bg.jpeg');
+    height: 700px;
+    background-size: auto;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: 1;
+
+}
+
+
+section .child1 {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 15px;
+    align-items: center;
+}
+
+section .child1 #tripcart-logo {
+    height: 40px;
+    width: 120px;
+}
+
+section .child1 a {
+    text-decoration: none;
+    color: #fff;
+
+}
+
+section .child1 button {
+    padding: 15px;
+    background-color: transparent;
+    border: none;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    font-family: Poppins;
+    font-size: 15px;
+    color: #fff;
+    font-weight: 500;
+}
+
+
+section .child2 {
+    padding-top: 180px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+section .child2 h1 {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 62px;
+    color: #fff;
+    line-height: 78px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+section .child2 p {
+
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    color: #fff;
+
+    mix-blend-mode: normal;
+    opacity: 0.88;
+    padding: 0px 40px;
+}
+
+section .child2 .search-bar-div {
+    display: flex;
+    gap: 20px;
+}
+
+section .child2 .input1 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-right: 50px;
+    border-radius: 5px;
+    background-color: white;
+}
+
+section .child2 #search-bar {
+    border: none;
+    outline: none;
+
+    padding: 30px;
+    padding-left: 150px;
+    padding-right: 0px;
+}
+
+
+
+
+
+
+section .child2 .search-bar-div #search-img {
+    height: 40px;
+    width: 40px;
+    position: relative;
+    left: 60px;
+    top: 15px;
+}
+
+section .child2 .search-bar-div #location-img {
+    height: 30px;
+    width: 30px;
+    position: relative;
+    right: 20px;
+    top: 9px;
+}
+
+
+
+section .child2 #search-bar::placeholder {
+    font-family: Poppins;
+    font-size: 15px;
+
+}
+
+
+section .child2 .search-bar-div #search-button {
+    border: none;
+    border: 1px solid #34A5E4;
+    border-radius: 5px;
+    padding: 25px;
+    color: #fff;
+    position: relative;
+    line-height: 28px;
+    text-align: center;
+    font-weight: 500;
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: #34A5E4;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+section .child2 #dropdown {
+    border: none;
+    height: 50px;
+    font-size: 18px;
+    font-family: Poppins;
+    background-color: #fff;
+}
+
+
+
+@media screen and (min-width:320px) and (max-width:480px) {
+    section .child1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-top: 15px;
+        align-items: center;
+    }
+
+
+    section .child2 h1 {
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 40px;
+        color: #fff;
+        line-height: 78px;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+
+    section .child2 .search-bar-div {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    section .child2 .search-bar-div .input1 {
+        display: flex;
+        flex-direction: column;
+        height: 100px;
+    }
+
+    section .child2 .search-bar-div .input1 #search-bar {
+        padding: 0;
+        position: relative;
+        left: 50px;
+    }
+
+    section .child2 .search-bar-div .input1 #search-img {
+        height: 20px;
+        width: 20px;
+        position: relative;
+        left: 30px;
+        top: 6px;
+    }
+
+
+    section .child2 .search-bar-div .input1 #location-img {
+        height: 20px;
+        width: 20px;
+        position: relative;
+        right: 32px;
+        top: 6px;
+    }
+
+    section .child2 .search-bar-div .input1 #dropdown {
+        border: none;
+        height: 50px;
+        font-size: 12px;
+    }
+
+    section .child2 .search-bar-div #search-button {
+        width: 17vw;
+        position: relative;
+        left: 40%;
+        padding: 5px;
+        font-size: 1em;
+    }
+
+
+
+}

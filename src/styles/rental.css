@@ -1,0 +1,89 @@
+.rental{
+    margin-left: 90px;
+    margin-right: 90px;
+}
+
+.rental #heading1{
+    font-weight: 600;
+    font-size: 16px;
+    color: #4141A5;
+    letter-spacing: 0.17em;
+}
+
+.rental #heading2{
+    font-size: 40px;
+    position: relative;
+    top: -35px;
+    margin-bottom: 16px;
+    text-align: left;
+    color: #1E2A39;
+}
+
+
+.rental .rental-packages{
+    display: flex;
+    gap: 73px;
+}
+
+.rental .rental-packages .package1 img{
+    height: 70%;
+    width: 340px;
+    border-radius: 20px;
+}
+
+
+
+
+.rental .rental-packages .package1 a{
+    font-weight: 600;
+    font-size: 20px;
+    color: #E9EBF3;
+    background: rgba(255, 255, 255, 0.2);
+    -webkit-backdrop-filter: blur(4px);
+    backdrop-filter: blur(4px);
+    border-radius: 50px;
+    width: max-content;
+    padding: 15px 23px;
+    position: relative;
+    text-decoration: none;
+    top: -65%;
+    left: 20px;
+}
+
+
+
+
+@media screen   and (min-width:320px) and (max-width:480px){
+
+    .rental{
+        margin-left: 60px;
+        margin-right: 60px;
+
+    }
+
+    .rental .rental-packages{
+        flex-direction: column;
+    }
+
+    .rental .rental-packages .package1 img{
+        width: 100%;
+    }
+
+  
+
+    .rental .rental-packages .package1 a{
+        position: relative;
+        top: -350px;
+    }
+
+    .rental .rental-packages .package1  #bike{
+        position: relative;
+        top: -350px;
+    }
+
+
+    .rental .rental-packages .package1  #cycle{
+        position: relative;
+        top: -350px;
+    }
+}
