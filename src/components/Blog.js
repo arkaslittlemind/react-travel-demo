@@ -9,7 +9,7 @@ function Blog() {
       <div className='blog-child2'>
 
         <div className='card'>
-          <img src="/assets/img/Blog images/blog-3.jpg" id='blog' alt="blog"/>
+          <img src="/assets/img/Blog images/blog-3.jpg" id='blog' alt="blog"/> <>
             <span>15 March 2022 / Thailand Tour</span><br/>
             <a href='https://blogs.trip-cart.com/2022/03/16/ladakh-the-land-of-high-passes/' id='blog-title'>Travelling to Thailand?</a>
             <p></p>
